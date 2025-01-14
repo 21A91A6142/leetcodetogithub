@@ -10,7 +10,5 @@ class Solution(object):
         if ones>1:
             s1=(ones-1)*"1"
         s2=zeros*"0"
-        if len(s1)>0:
-            return s1+s2+"1" 
-        else:
-            return s2+"1"      
+        
+        return s1+s2+"1"       
