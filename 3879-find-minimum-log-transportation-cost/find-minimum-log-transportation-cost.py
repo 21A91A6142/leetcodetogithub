@@ -16,4 +16,3 @@ class Solution(object):
             l1=m-k
             l2=m-l1
             return l1*l2
-        
